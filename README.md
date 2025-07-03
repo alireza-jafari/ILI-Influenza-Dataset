@@ -27,6 +27,7 @@ The raw export is stored in **`data/raw/ILINet.csv`** (≈ 10 kB). It is *alread
 
 ![Picture1](https://github.com/user-attachments/assets/c375bdfb-ffab-412d-90bd-048850f9c81b)
 
+Source: U.S. Centers for Disease Control and Prevention (CDC), FluView Interactive.
 ---
 
 
@@ -39,6 +40,15 @@ The raw export is stored in **`data/raw/ILINet.csv`** (≈ 10 kB). It is *alread
 | **`Plots.ipynb`** | Starter notebook: loads the processed DataFrames and recreates the line plot shown here; feel free to extend with your own model experiments. |
 
 ---
+
+> **Data provenance.**  
+> Weekly, region-level influenza-like illness percentages were
+> downloaded from CDC FluView Interactive on <download-date>.  
+> *Source: Centers for Disease Control and Prevention (CDC).*  
+> Reference to CDC does **not** imply endorsement by CDC, HHS,
+> or the United States Government. The original, freely available
+> data can be accessed at https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html.
+
 
 ## 🚀 Quick-start
 
