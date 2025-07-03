@@ -1,7 +1,6 @@
 # Influenza-Like-Illness (ILI) Forecasting on U.S. HHS Regions  
 _A clean, reproducible starter kit_
 
-![HHS Regions Map](figures/hhs_regions_map.png)
 
 ## 📑 Overview
 This repository packages a **region-level, weekly ILI time-series dataset (2005 – 2025)** from the U.S. CDC FluView API together with data-prep utilities, cross-validation helpers, and example visualisations.  
@@ -11,7 +10,7 @@ It is designed to let researchers benchmark classical models (ARIMA, Prophet, et
 2. **Temporal hold-out** – train on the first *N* weeks of every region, predict the most recent weeks
 
 <div align="center">
-  <img src="figures/ili_time_series.png" width="100%" alt="% Weighted ILI per HHS region (weekly series)">
+  ![Picture2](https://github.com/user-attachments/assets/810d6dc5-0ac5-4147-9755-66bb6ace6d54)
 </div>
 
 ---
@@ -27,7 +26,7 @@ It is designed to let researchers benchmark classical models (ARIMA, Prophet, et
 The raw export is stored in **`data/raw/ILINet.csv`** (≈ 10 kB). It is *already* cleaned for NaNs and sorted by region & week inside the generator scripts, so no heavy preprocessing is required beyond those utilities.
 
 
-![Picture2](https://github.com/user-attachments/assets/810d6dc5-0ac5-4147-9755-66bb6ace6d54)
+
 
 ![Picture1](https://github.com/user-attachments/assets/c375bdfb-ffab-412d-90bd-048850f9c81b)
 
