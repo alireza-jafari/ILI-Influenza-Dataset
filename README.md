@@ -9,9 +9,6 @@ It is designed to let researchers benchmark classical models (ARIMA, Prophet, et
 1. **Spatial hold-out** – train on 8 regions, test on 2 unseen regions (5-fold CV)  
 2. **Temporal hold-out** – train on the first *N* weeks of every region, predict the most recent weeks
 
-<div align="center">
-  ![Picture2](https://github.com/user-attachments/assets/810d6dc5-0ac5-4147-9755-66bb6ace6d54)
-</div>
 
 ---
 
@@ -26,7 +23,7 @@ It is designed to let researchers benchmark classical models (ARIMA, Prophet, et
 The raw export is stored in **`data/raw/ILINet.csv`** (≈ 10 kB). It is *already* cleaned for NaNs and sorted by region & week inside the generator scripts, so no heavy preprocessing is required beyond those utilities.
 
 
-
+![Picture2](https://github.com/user-attachments/assets/810d6dc5-0ac5-4147-9755-66bb6ace6d54)
 
 ![Picture1](https://github.com/user-attachments/assets/c375bdfb-ffab-412d-90bd-048850f9c81b)
 
